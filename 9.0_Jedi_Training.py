@@ -1,39 +1,40 @@
 #Sign your name:________________
 
-
-#1.) Correct the following code: (The user's number should be increased by 1 and printed.)
-
+'''
+1.) Correct the following code: (The user's number should be increased by 1 and printed.)
+'''
 # def increase(x):
 #     return x + 1
 # x = int(input("Enter a number: "))
 # n = increase(x)
 # print("Your number has been increased to", n)
 
+'''
+2.) Correct the following code to print 1-10:
+'''
+# def count_to_ten():
+#     for i in range(11):
+#         print(i)
+#
+# count_to_ten()
 
-#2.) Correct the following code to print 1-10:
+'''
+3.) Correct the following code to sum the list:
+'''
 
-def count_to_ten():
-    for i in range[10]:
-        print(i)
+def sum_list(list):
+    for i in list:
+        sum = i
+        return sum
 
-count_to_ten()
+list = [45, 2, 10, -5, 100]
+print(sum_list(list))
 
 
-# #3.) Correct the following code to sum the list:
-#
-# def sum_list(list):
-#     for i in list:
-#         sum = i
-#         return sum
-#
-# list = [45, 2, 10, -5, 100]
-# print(sum_list(list))
-#
-#
-#
-#
-# #4.) Correct the following code which should reverse the sentence that is entered.
-#
+'''
+4.) Correct the following code which should reverse the sentence that is entered.
+'''
+
 # def reverse(text):
 #     result = ""
 #     text_length = len(text)
@@ -43,11 +44,11 @@ count_to_ten()
 #
 # text = input("Enter a sentence: ")
 # print(reverse(text))
-#
-#
-#
-# #5.) Correct the following code: (if one of the options is not entered it should print the statements)
-#
+
+'''
+5.) Correct the following code: (if one of the options is not entered it should print the statements
+'''
+
 # def get_user_choice():
 #     while True:
 #         command = input("Command: ")
