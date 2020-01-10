@@ -21,7 +21,6 @@
 '''
 3.) Correct the following code to sum the list:
 '''
-
 # def sum_list(list):
 #     sum = 0
 #     for i in list:
@@ -32,7 +31,6 @@
 # n = sum_list(list)
 # print(n)
 
-
 '''
 4.) Correct the following code which should reverse the sentence that is entered.
 '''
@@ -41,12 +39,25 @@
 #     result = ""
 #     text_length = len(text)
 #     for i in range(text_length):
-#         result = result + text[i * -1]
+#         result = result + text[i * + 2]
 #     return result
 #
 # text = input("Enter a sentence: ")
-# print(reverse(text))
-
+# n = reverse(text)
+#  print(n)
+#
+#
+# def reverse(text):
+#     result = ""
+#     text_length = len(text)
+#     for i in range(text_length):
+#         result = result + text[i * -1]
+#     return result
+#
+#
+# text = input("Enter a sentence: ")
+# n = reverse(text)
+# print(n)
 '''
 5.) Correct the following code: (if one of the options is not entered it should print the statements
 '''
@@ -54,15 +65,22 @@
 # def get_user_choice():
 #     while True:
 #         command = input("Command: ")
-#         if command = f or command = m or command = s or command = d or command = q:
-#             return command
+#         if command.lower() == "f":
+#             print("f - Full speed ahead")
+#         elif command.lower() == "m":
+#             print("m - Moderate speed")
+#         elif command.lower() == "s":
+#             print("s - Status")
+#         elif command.lower() == "d":
+#             print("d - Drink")
+#         elif command.lower() == "q":
+#             print("q - Quit")
+#         else:
+#             print("Hey, that's not a command. Here are your options:" )
 #
-#         print("Hey, that's not a command. Here are your options:" )
-#         print("f - Full speed ahead")
-#         print("m - Moderate speed")
-#         print("s - Status")
-#         print("d - Drink")
-#         print("q - Quit")
+#         return command
+#         break
+#
 #
 # user_command = get_user_choice()
 # print("You entered:", user_command)
