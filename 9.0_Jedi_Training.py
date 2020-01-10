@@ -35,29 +35,29 @@
 4.) Correct the following code which should reverse the sentence that is entered.
 '''
 
-# def reverse(text):
-#     result = ""
-#     text_length = len(text)
-#     for i in range(text_length):
-#         result = result + text[i * + 2]
-#     return result
-#
-# text = input("Enter a sentence: ")
-# n = reverse(text)
-#  print(n)
-#
-#
-# def reverse(text):
-#     result = ""
-#     text_length = len(text)
-#     for i in range(text_length):
-#         result = result + text[i * -1]
-#     return result
-#
-#
-# text = input("Enter a sentence: ")
-# n = reverse(text)
-# print(n)
+def reverse(text):
+    result = ""
+    text_length = len(text)
+    for i in range(text_length):
+        result = result + text[i * + 2]
+    return result
+
+text = input("Enter a sentence: ")
+n = reverse(text)
+ print(n)
+
+
+def reverse(text):
+    result = ""
+    text_length = len(text)
+    for i in range(text_length):
+        result = result + text[i * -1]
+    return result
+
+
+text = input("Enter a sentence: ")
+n = reverse(text)
+print(n)
 '''
 5.) Correct the following code: (if one of the options is not entered it should print the statements
 '''
