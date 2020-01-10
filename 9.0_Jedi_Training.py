@@ -44,7 +44,7 @@ def reverse(text):
 
 text = input("Enter a sentence: ")
 n = reverse(text)
- print(n)
+print(n)
 
 
 def reverse(text):
