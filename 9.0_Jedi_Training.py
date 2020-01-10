@@ -23,12 +23,14 @@
 '''
 
 # def sum_list(list):
+#     sum = 0
 #     for i in list:
-#         sum = i
-#         return sum
+#         sum+= i
+#     return sum
 #
 # list = [45, 2, 10, -5, 100]
-# print(sum_list(list))
+# n = sum_list(list)
+# print(n)
 
 
 '''
