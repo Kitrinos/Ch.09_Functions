@@ -33,13 +33,14 @@ oooooooooo
 '''
 
 
-def box(h, a):
-    for i in range(h):
-        print("o" * a)
+# def box(h, a):
+#     for i in range(h):
+#         print("o" * a)
+#
+#
+# print("Let me draw  a box for you. What are the parameters ")
+#
+# h = int(input("Height: "))
+# a = int(input("Across: "))
+# box(h, a)
 
-
-print("Let me draw  a box for you. What are the parameters ")
-
-h = int(input("Height: "))
-a = int(input("Across: "))
-box(h, a)
