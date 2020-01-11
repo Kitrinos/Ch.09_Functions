@@ -31,7 +31,7 @@ Use a for loop with an index variable and a range.
 Inside the loop use an if statement. This function 
 can be written in about four lines of code.
 '''
-
+                           #91                     #12
 list = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 17, 17]
 
 # def find_num(list):
@@ -49,11 +49,35 @@ list = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 1
 
 
 print("What numbers would you like me to find?")
-n = int(input("Please input your numbers ex : 1,2,3 : "))
+n = int(input("Please input your numbers 1: "))
+n2 = input("number 2: ")
+n3 = input("number 3: ")
 for i in list:
-    if i == n and n:
-        print("Found", n)
+    if i == n and n2 and n3:
+        print("Found", n and n2 and n3)
+    if n or n2 or n3 != list:
+        print("")
+    #return n and n2 and n3
     break
 
-get_position = list.index(n)
+get_position = list.index(n and n2 and n3)
 print("Found", n, "at position", get_position)
+
+# a = input("n :")
+
+print("What numbers would you like me to find?")
+n = int(input("Please input your numbers 1: "))
+n2 = input("number 2: ")
+n3 = input("number 3: ")
+for i in list:
+    if i == n and n2 and n3:
+        print("Found", n and n2 and n3)
+    if n or n2 or n3 != list:
+        print("")
+    #return n and n2 and n3
+    break
+
+get_position = list.index(n and n2 and n3)
+print("Found", n, "at position", get_position)
+
+# a = input("n :")
