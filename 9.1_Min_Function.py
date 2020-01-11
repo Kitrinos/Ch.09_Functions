@@ -28,7 +28,6 @@ Please use if statements and practice creating it yourself.
 '''
 
 #    FIX #5
-
 l1 = (7, 3, 5)
 l2 = (5, 5, 4)
 l3 = (2, 2, 3)
