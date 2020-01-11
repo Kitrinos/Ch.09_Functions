@@ -10,13 +10,14 @@ in the Fibonacci sequence. Pass the number into the function.
 Just to do a quick review of text formatting in the last chapter, make the list of numbers
 right-justified with commas.
 '''
+#nx =xn-1 + xn-2 the formula
 
 def Fibonacci():
-    i = 1
-    print(1)
+    n = 1
+    n1 = 1
     for i in range(1, 7):
         print(i)
-        i+=1
+        n = n + n1
 
 
 Fibonacci()
