@@ -33,20 +33,22 @@ fizzbuzz
 
 The classic test is to use the numbers 1-100 so make sure you test that with your function.
 '''
-n = 15
-
-def fizzbuzz(n):
-    for i in range(1, 16):
-        if i % 3 == 0 and i % 5 == 0:
-            print("fizzbuzz")
-            continue
-        elif i % 3 == 0:
-            print("fizz")
-            continue
-        elif i % 5 == 0:
-            print("buzz")
-            continue
-        print(i)
-    return fizzbuzz
-
-fizzbuzz(n)
+# n = 15
+#
+# def fizzbuzz(n):
+#     for i in range(1, 16):
+#         if i % 3 == 0 and i % 5 == 0:
+#             print("fizzbuzz")
+#             continue
+#         elif i % 3 == 0:
+#             print("fizz")
+#             continue
+#         elif i % 5 == 0:
+#             print("buzz")
+#             continue
+#         print(i)
+#     return fizzbuzz
+#
+#
+# fizzbuzz(n)
+#
