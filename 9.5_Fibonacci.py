@@ -14,10 +14,14 @@ right-justified with commas.
 
 def Fibonacci():
     n = 1
-    n1 = 1
-    for i in range(1, 7):
-        print(i)
-        n = n + n1
+    n2 = 1
+    print(n)
+    for i in range(1, 8):
+        if n == n:
+            print(n)
+        elif n != n:
+            n2 = n + n2
+        n = n + n
 
 
 Fibonacci()

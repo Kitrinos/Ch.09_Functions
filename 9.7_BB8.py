@@ -22,7 +22,8 @@ arcade.open_window(600, 600, "BB8")
 def draw_BB8(x,y, radius):
   
 
-# The main function where we set background color, start and finish rendering and run.
+#The main function where we set background color, start and finish rendering and run.
+
 def main():
     arcade.set_background_color(arcade.color.WHEAT)
     arcade.start_render()
