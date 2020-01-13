@@ -1,12 +1,18 @@
 #Hang man
 
 l = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y"]
+win = False
 
-an = input("What would you like your word to be: ")
+an = input("Enter a phrase: ")
 al = len(an)
+# print(30 * "\n")
 
-print()
-print(al * "_ ")
+print("Welcome to Hangman!")
 
-g = input("what would you like to guess?: ")
+print("  ______\n |       |\n |\n |\n |\n_|_")
 
+print("guess this word/phrase?:", al * "-")
+
+
+pg = ("previous guesses: " )
+input("Enter a letter or the answers")
