@@ -1,18 +1,26 @@
 #Hang man
-
-l = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y"]
+an = input("Enter a phrase: ")
+# print(30 * "\n")
 win = False
 
-an = input("Enter a phrase: ")
-al = len(an)
-# print(30 * "\n")
+while win == False:
+    print("guess this word/phrase?:")
+    dashes = "-" * len(an)
+    print(dashes)
+    # pg = ("previous guesses: " )
+    li = input("Enter a letter or the answer(s) : ")
+    if li in an:
+        print("you guessed correctly")
+    else:
+        print("That is not in the secret phrase try again!")
 
-print("Welcome to Hangman!")
+    def update_dashes(an):
+        for i in range(len(an)):
+            if an[i] == li:
+                result = result + li
+            else:
+                print("no")
 
-print("  ______\n |       |\n |\n |\n |\n_|_")
-
-print("guess this word/phrase?:", al * "-")
+        return result
 
 
-pg = ("previous guesses: " )
-input("Enter a letter or the answers")

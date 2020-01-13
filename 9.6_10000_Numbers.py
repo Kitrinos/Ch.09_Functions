@@ -79,6 +79,3 @@ Now that the functions have been created, use them all in a main program that wi
 3.) Print the average of all 10,000 random numbers. (Make sure it's a float) (2 lines of code)
 '''
 
-
-
-
