@@ -4,23 +4,24 @@ an = input("Enter a phrase: ")
 win = False
 
 while win == False:
-    print("guess this word/phrase?:")
+    print()
     dashes = "-" * len(an)
-    print(dashes)
+    print("guess this word/phrase?:", dashes)
     # pg = ("previous guesses: " )
     li = input("Enter a letter or the answer(s) : ")
     if li in an:
-        print("you guessed correctly")
+        get_position = an.index(li)
+        print(get_position)
+        # dashes = print(dashes.replace(an, get_position ))
+
     else:
         print("That is not in the secret phrase try again!")
 
-    def update_dashes(an):
-        for i in range(len(an)):
-            if an[i] == li:
-                result = result + li
-            else:
-                print("no")
-
-        return result
+# # def update_dashes(an):
+# for i in range(len(an)):
+#     if an[i] == li:
+#         li.index
+#     else:
+#         print("no")
 
 
