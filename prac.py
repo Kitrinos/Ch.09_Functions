@@ -16,9 +16,8 @@ while not done:
         get_position = word.index(letter)
         lol[get_position] = letter
     elif letter != word:
-        print("That letter is not in the word, try again!")
+        print(letter, "is not in the word, try again!")
         hangman+=1
-        print(letter)
     else:
         print("sorry that is not an option")
 
