@@ -12,7 +12,7 @@ while not done:
     print("guess this word/phrase?: ")
     print(' '.join(lol))
     print()
-    print("Your guesses: ", ','.join(wronglist))
+    print("Your guesses : ", ','.join(wronglist))
     letter = str(input("Enter a letter or the answer(s) : "))
     if letter in word:
         get_position = word.index(letter)
