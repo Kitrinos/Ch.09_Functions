@@ -1,7 +1,6 @@
 '''
 10,000 NUMBERS
 --------------
-
 In this program we will write three different functions.
 
 Function #1: Write a function named create_list that takes
@@ -37,10 +36,6 @@ OUTPUT
 ------
 3 
 '''
-
-
-
-
 
 '''
 Function #3: Write a function called average_list that returns the 
