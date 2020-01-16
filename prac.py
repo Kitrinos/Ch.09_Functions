@@ -1,8 +1,9 @@
 # Hang man, add spaces, and pics
 
-
+           #failed
 
 word = input("Enter a phrase: ")
+word2 = word
 dashes = "-" * len(word)
 lol = list(dashes)
 done = False
@@ -15,6 +16,7 @@ for i in word:
     else:
         word+= "-"
 
+# print(30 * "\n")
 while not done:
     print()
     print("guess this word/phrase?: ")
@@ -31,34 +33,6 @@ while not done:
         wl.append(letter)
     else:
         print("sorry that is not an option")
-    if letter == word:
+    if letter == word2:
         print("You Win!!!!")
         break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
