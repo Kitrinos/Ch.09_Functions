@@ -7,7 +7,8 @@ hangman = 0
 wl = [""]
 for i in word:
     if i == " ":
-        word+= " "
+        pos = word.index(" ")
+        lol[pos] = " "
     else:
         word+= "-"
 
