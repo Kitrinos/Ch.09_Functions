@@ -13,8 +13,9 @@ for i in word:
     if i == " ":
         pos = word.index(" ")
         lol[pos] = " "
+        continue
     else:
-        word+= "-"
+        word += "-"
 
 # print(30 * "\n")
 while not done:
@@ -27,12 +28,17 @@ while not done:
     if letter in word:
         get_position = word.index(letter)
         lol[get_position] = letter
+        continue
     elif letter != word:
         print(letter, "is not in the word, try again!")
         hangman+=1
         wl.append(letter)
+        continue
+    elif letter == word2:
+        print("You win!!!")
+        break
     else:
         print("sorry that is not an option")
-    if letter == word2:
-        print("You Win!!!!")
-        break
+        continue
+
+
