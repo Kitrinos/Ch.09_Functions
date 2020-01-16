@@ -32,13 +32,13 @@ oooooooooo
 oooooooooo
 '''
 #why does it print none
-def box(h, a):
-    for i in range(h):
-        print("o" * a)
-
-box(7,5)
-print()
-box(3,2)
-print()
-box(3,10)
+# def box(h, a):
+#     for i in range(h):
+#         print("o" * a)
+#
+# box(7,5)
+# print()
+# box(3,2)
+# print()
+# box(3,10)
 
