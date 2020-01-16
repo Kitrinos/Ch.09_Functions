@@ -5,6 +5,11 @@ lol = list(dashes)
 done = False
 hangman = 0
 wl = [""]
+for i in word:
+    if i == " ":
+        word+= " "
+    else:
+        word+= "-"
 
 while not done:
     print()
@@ -25,15 +30,16 @@ while not done:
     if letter == word:
         print("You Win!!!!")
         break
-    if hangman == 1:
-        print("you got a head!")
-    elif hangman == 2:
-        print("")
-    elif hangman == 3:
-        print("")
-    elif hangman == 4:
-        print("")
-    elif hangman == 5:
-        print("")
-    elif hangman == 6:
-        print("")
+#     if hangman == 1:
+#         print("you got a head!")
+#     elif hangman == 2:
+#         print("")
+#     elif hangman == 3:
+#         print("")
+#     elif hangman == 4:
+#         print("")
+#     elif hangman == 5:
+#         print("")
+#     elif hangman == 6:
+#         print("")
+#
