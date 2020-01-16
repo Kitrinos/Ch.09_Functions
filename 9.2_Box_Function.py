@@ -31,14 +31,14 @@ oooooooooo
 oooooooooo
 oooooooooo
 '''
-
+#why does it print none
 def box(h, a):
     for i in range(h):
         print("o" * a)
 
-print(box(7,5))
+box(7,5)
 print()
-print(box(3,2))
+box(3,2)
 print()
-print(box(3,10))
+box(3,10)
 

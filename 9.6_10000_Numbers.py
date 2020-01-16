@@ -20,11 +20,6 @@ OUTPUT
 [2,5,1,6,3] #something like this 
 '''
 
-
-
-
-
-
 '''
 Function #2: Write a function called count_list that takes
 in a list and a number. Have the function return the number
@@ -63,14 +58,6 @@ OUTPUT
 ------
 2.0
 '''
-
-
-
-
-
-
-
-
 
 '''
 Now that the functions have been created, use them all in a main program that will:
