@@ -1,4 +1,7 @@
 # Hang man, add spaces, and pics
+
+
+
 word = input("Enter a phrase: ")
 dashes = "-" * len(word)
 lol = list(dashes)
@@ -31,16 +34,31 @@ while not done:
     if letter == word:
         print("You Win!!!!")
         break
-#     if hangman == 1:
-#         print("you got a head!")
-#     elif hangman == 2:
-#         print("")
-#     elif hangman == 3:
-#         print("")
-#     elif hangman == 4:
-#         print("")
-#     elif hangman == 5:
-#         print("")
-#     elif hangman == 6:
-#         print("")
-#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
