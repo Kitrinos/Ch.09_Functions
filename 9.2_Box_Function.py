@@ -31,7 +31,7 @@ oooooooooo
 oooooooooo
 oooooooooo
 '''
-#why does it print none
+
 # def box(h, a):
 #     for i in range(h):
 #         print("o" * a)

@@ -31,32 +31,16 @@ Use a for loop with an index variable and a range.
 Inside the loop use an if statement. This function 
 can be written in about four lines of code.
 '''
-                           #91                    #12
+
 li = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 17, 17]
-
-# def find(list,key):
-#     listposition=-1
-#     if key in list:
-#         for i in list:
-#             listposition += 1
-#             if i == key:
-#                 print("Found",key,"at position",listposition)
-#
-# list = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 17, 17]
-#
-# find(list, 12)
-# find(list, 91)
-# find(list, 80)
-
-#12 at position 13
-
 def fin(list, num):
-    if num in list:
-        get_position = li.index(num)
-        print("Found", num, "at position", get_position)
-    else:
-        print("")
+    get_position = -1
+    for i in list:
+        get_position+=1
+        if num == i:
+            print("Found", num, "at position", get_position)
 
 fin(li, 12)
 fin(li, 91)
 fin(li, 80)
+
