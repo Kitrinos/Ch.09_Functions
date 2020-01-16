@@ -47,7 +47,7 @@ while not done:
    print()
    print("Guess this word/phrase?: ")
    print(secret_word)
-   print(wl)
+   # print(wl)
    print("Your guesses : ", ','.join(wl))
    letter = str(input("Enter a letter or the phrase(s) : "))
    if letter in word:
