@@ -27,7 +27,7 @@ Also, while there is a min function built into Python, don't use it.
 Please use if statements and practice creating it yourself.
 '''
 
-l6 = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", 'z']
+l6 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", 'Z']
 #    FIX #5
 l1 = (7, 3, 5)
 l2 = (5, 5, 4)
@@ -44,7 +44,12 @@ def min_val(an):
         elif an[2] < an[0]:
             print(an[2])
     if an == l5:
-        print("A")
+        if l5.index["Z"] < l5.index["B"]:
+            print(l5.index["Z"])
+        elif l5.index["B"] < l5.index["A"]:
+            print(l5.index["B"])
+        elif l5.index["A"] < l5.index["Z"]:
+            print(l5.index["A"])
     return print
 
 an = input("I will print the min of each list,  what list would you like? l1, l2, l3, l4 or l5: ")
