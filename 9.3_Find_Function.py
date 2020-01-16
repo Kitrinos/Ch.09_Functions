@@ -34,29 +34,29 @@ can be written in about four lines of code.
                            #91                    #12
 li = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 17, 17]
 
+def find(list,key):
+    listposition=-1
+    if key in list:
+        for i in list:
+            listposition += 1
+            if i == key:
+                print("Found",key,"at position",listposition)
 
-def fin(list, num):
-    if num in list:
-        get_position = li.index(num)
-        print("Found", num, "at position", get_position)
-    else:
-        print("")
+list = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 17, 17]
+
+find(list, 12)
+find(list, 91)
+find(list, 80)
 
 
-fin(li, 12)
-fin(li, 91)
-fin(li, 80)
-
-# def find(list,key):
-#     listposition=-1
-#     if key in list:
-#         for i in list:
-#             listposition += 1
-#             if i == key:
-#                 print("Found",key,"at position",listposition)
+# def fin(list, num):
+#     if num in list:
+#         get_position = li.index(num)
+#         print("Found", num, "at position", get_position)
+#     else:
+#         print("")
 #
-# list = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 17, 17]
 #
-# find(list, 12)
-# find(list, 91)
-# find(list, 80)
+# fin(li, 12)
+# fin(li, 91)
+# fin(li, 80)
