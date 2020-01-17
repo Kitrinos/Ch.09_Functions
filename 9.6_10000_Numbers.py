@@ -19,15 +19,15 @@ OUTPUT
 ------
 [2,5,1,6,3] #something like this 
 '''
-import random
-def create_list(ls):
-    list = []
-    for i in range(ls):
-        list.append(random.randrange(7))
-    return list
-
-my_list = create_list(5)
-print(my_list)
+# import random
+# def create_list(ls):
+#     list = []
+#     for i in range(ls):
+#         list.append(random.randrange(7))
+#     return list
+#
+# my_list = create_list(5)
+# print(my_list)
 
 '''
 Function #2: Write a function called count_list that takes
@@ -46,7 +46,18 @@ OUTPUT
 ------
 3 
 '''
-
+# def count_list(my_list, num):
+#     get_position= -1
+#     num_val = 0
+#     for i in my_list:
+#         get_position+=1
+#         if num == i:
+#             num_val+= 1
+#     return num_val
+#
+# my_list = [1, 2, 3, 3, 3, 4, 2, 1]
+# count = count_list(my_list, 3)
+# print(count)
 '''
 Function #3: Write a function called average_list that returns the 
 average of the list passed into it. Once you've finished writing your
