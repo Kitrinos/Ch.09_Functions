@@ -44,7 +44,6 @@ for i in word:
        swl.append(" ")
 while not done:
    add_parts(hangman)
-   print()
    print("Guess this word/phrase?: ")
    print(secret_word)
    # print(wl)
