@@ -1,6 +1,7 @@
 '''
 10,000 NUMBERS
 --------------
+
 In this program we will write three different functions.
 
 Function #1: Write a function named create_list that takes
@@ -18,6 +19,15 @@ OUTPUT
 ------
 [2,5,1,6,3] #something like this 
 '''
+import random
+def create_list(ls):
+    list = []
+    for i in range(ls):
+        list.append(random.randrange(7))
+    return list
+
+my_list = create_list(5)
+print(my_list)
 
 '''
 Function #2: Write a function called count_list that takes
