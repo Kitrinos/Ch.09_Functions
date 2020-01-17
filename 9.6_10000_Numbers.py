@@ -74,7 +74,16 @@ OUTPUT
 ------
 2.0
 '''
-
+# def average_list(list):
+#     total = 0
+#     for i in list:
+#         total+=i
+#         ave = total/len(list)
+#     return ave
+#
+# my_list = [1,2,3]
+# avg = average_list(my_list)
+# print(avg)
 '''
 Now that the functions have been created, use them all in a main program that will:
 1.) Create a list of 10,000 random numbers from 1 to 6. (1 line of code)
