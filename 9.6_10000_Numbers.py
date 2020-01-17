@@ -1,3 +1,4 @@
+import random
 '''
 10,000 NUMBERS
 --------------
@@ -19,7 +20,6 @@ OUTPUT
 ------
 [2,5,1,6,3] #something like this 
 '''
-# import random
 # def create_list(ls):
 #     list = []
 #     for i in range(ls):
@@ -90,3 +90,10 @@ Now that the functions have been created, use them all in a main program that wi
 2.) Print the count of 1 through 6. (For example, "There are 1361 amount of 2s") (3 lines of code)
 3.) Print the average of all 10,000 random numbers. (Make sure it's a float) (2 lines of code)
 '''
+#The function are above, only uncomment the functions
+
+# list = [random.randrange(1,7) for i in range(10000)]
+# count = count_list(list, 2)
+# print("There are ", count, "amount of 2s")
+# avg = average_list(list)
+# print(avg)
