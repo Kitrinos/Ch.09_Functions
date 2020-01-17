@@ -16,6 +16,7 @@ arcade.open_window(600, 600, "BB8") # Opens a 600px by 600px window and puts BB8
 
 def draw_BB8(x,y, radius): # Function to draw BB8 robots
 
+
 #The main function where we set background color, start and finish rendering and run.
 def main():
     arcade.set_background_color(arcade.color.WHEAT)
