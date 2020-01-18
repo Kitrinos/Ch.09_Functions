@@ -16,22 +16,22 @@ arcade.open_window(600, 600, "BB8") # Opens a 600px by 600px window and puts BB8
 
 def draw_BB8(x,y, radius): # Function to draw BB8 robots
     #body
-    arcade.draw_circle_outline(x, y, radius, arcade.color.BLACK, 4)
-    arcade.draw_circle_filled(x, y, radius, arcade.color.BLUE, 4)
-    #head
+    arcade.draw_circle_outline(x, y, radius, arcade.color.BLACK, 2)
+    arcade.draw_circle_outline(x, y, radius -10, arcade.color.BLACK, 2)
+    arcade.draw_circle_outline(x, y, radius - 25, arcade.color.BLACK, 2)
+    #head need arc of half circle, does not work
+    arcade.draw_arc_filled(x, y+radius-5, radius-10, radius-10, arcade.color.WHITE, 40, 220, -40)
+
 
 #The main function where we set background color, start and finish rendering and run.
 def main():
     arcade.set_background_color(arcade.color.WHEAT)
     arcade.start_render()
-
     draw_BB8(100,50,50)
     draw_BB8(300, 300, 30)
     draw_BB8(500, 100, 20)
     draw_BB8(500, 400, 60)
     draw_BB8(120, 500, 15)
-
     arcade.finish_render()
     arcade.run()
-
 main() # Calls the main function
