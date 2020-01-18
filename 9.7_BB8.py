@@ -15,7 +15,10 @@ import arcade # Imports arcade module
 arcade.open_window(600, 600, "BB8") # Opens a 600px by 600px window and puts BB8 in the title
 
 def draw_BB8(x,y, radius): # Function to draw BB8 robots
-
+    #body
+    arcade.draw_circle_outline(x, y, radius, arcade.color.BLACK, 4)
+    arcade.draw_circle_filled(x, y, radius, arcade.color.BLUE, 4)
+    #head
 
 #The main function where we set background color, start and finish rendering and run.
 def main():
