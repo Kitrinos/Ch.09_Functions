@@ -19,7 +19,7 @@ def draw_BB8(x,y, radius): # Function to draw BB8 robots
     arcade.draw_circle_outline(x, y, radius, arcade.color.BLACK, 2)
     arcade.draw_circle_outline(x, y, radius -10, arcade.color.BLACK, 2)
     arcade.draw_circle_outline(x, y, radius - 25, arcade.color.BLACK, 2)
-    #head need arc of half circle, does not work
+    #head;arc;top let weird
     arcade.draw_arc_filled(x, y+radius-5, radius-10, radius-10, arcade.color.WHITE, 40, 220, -40)
 
 
