@@ -4,6 +4,7 @@
 1.) Correct the following code: (The user's number should be increased by 1 and printed.)
 '''
 # def increase(x):
+#     '''This will take your number, and increase it by 1'''
 #     return x + 1
 # x = int(input("Enter a number: "))
 # n = increase(x)
@@ -13,6 +14,7 @@
 2.) Correct the following code to print 1-10:
 '''
 # def count_to_ten():
+#     '''This will print numbers 1-10'''
 #     for i in range(1,11):
 #         print(i)
 #
@@ -22,6 +24,7 @@
 3.) Correct the following code to sum the list:
 '''
 # def sum_list(list):
+#     '''This code will take the following list and sum it'''
 #     sum = 0
 #     for i in list:
 #         sum+= i
@@ -37,6 +40,7 @@
 
 
 # def reverse(text):
+#     '''This will take your text(text) and reverse the text'''
 #     result = ""
 #     text_length = len(text)
 #     for i in range(text_length):
@@ -54,6 +58,7 @@
 '''
 
 # def get_user_choice():
+#     '''You can chose your choices'''
 #     while True:
 #         command = input("Command: ")
 #         if command.lower() == "f":

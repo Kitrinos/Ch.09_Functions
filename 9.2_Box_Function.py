@@ -33,6 +33,7 @@ oooooooooo
 '''
 
 # def box(h, a):
+#     '''prints a box with o's'''
 #     for i in range(h):
 #         print("o" * a)
 #

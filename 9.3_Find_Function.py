@@ -34,6 +34,7 @@ can be written in about four lines of code.
 
 # li = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 17, 17]
 # def fin(list, num):
+#     '''This takes the list, finds the numbers and prints the position'''
 #     get_position = -1
 #     for i in list:
 #         get_position+=1

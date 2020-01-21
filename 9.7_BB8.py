@@ -42,4 +42,5 @@ def main():
     draw_BB8(120, 500, 15)
     arcade.finish_render()
     arcade.run()
+
 main() # Calls the main function

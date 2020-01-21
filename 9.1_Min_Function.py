@@ -27,8 +27,9 @@ Also, while there is a min function built into Python, don't use it.
 Please use if statements and practice creating it yourself.
 '''
 # l6 = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", 'Z']
-#
+
 # def min_val(num0, num1, num2):
+#     '''This takes the numbers and finds the smallest'''
 #     if num0 < num1:
 #         return num0
 #     elif num1 < num2:

@@ -12,6 +12,7 @@ right-justified with commas.
 '''
 
 # def Fibonacci(n):
+#     '''the first two is the sum of the two preceding ones'''
 #     a = 0
 #     b = 1
 #     print(b)
@@ -22,5 +23,4 @@ right-justified with commas.
 #         print(c)
 #
 # Fibonacci(0)
-#
-#
+
