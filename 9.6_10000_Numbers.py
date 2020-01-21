@@ -21,6 +21,7 @@ OUTPUT
 [2,5,1,6,3] #something like this 
 '''
 # def create_list(ls):
+#     '''prints a list of 5, random numbers 1-6'''
 #     list = []
 #     for i in range(ls):
 #         list.append(random.randrange(7))
@@ -47,6 +48,7 @@ OUTPUT
 3 
 '''
 # def count_list(my_list, num):
+#     '''taakes the list and prints the mode'''
 #     get_position= -1
 #     num_val = 0
 #     for i in my_list:
@@ -75,6 +77,7 @@ OUTPUT
 2.0
 '''
 # def average_list(list):
+#     '''prints the average'''
 #     total = 0
 #     for i in list:
 #         total+=i
