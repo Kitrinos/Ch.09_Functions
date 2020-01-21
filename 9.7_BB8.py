@@ -14,6 +14,7 @@ it to the one on the website.
 import arcade # Imports arcade module
 arcade.open_window(600, 600, "BB8") # Opens a 600px by 600px window and puts BB8 in the title
 
+
 def draw_BB8(x,y, radius): # Function to draw BB8 robots
     #body;what is happening with the far top left
     arcade.draw_circle_filled(x, y, radius, arcade.color.WHITE)
