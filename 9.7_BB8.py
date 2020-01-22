@@ -18,10 +18,10 @@ arcade.open_window(600, 600, "BB8") # Opens a 600px by 600px window and puts BB8
 def draw_BB8(x,y, radius): # Function to draw BB8 robots
     #BODY
     arcade.draw_circle_filled(x, y, radius, arcade.color.WHITE)
-    arcade.draw_circle_filled(x, y, radius/2 + 5, arcade.color.ORANGE)
+    arcade.draw_circle_filled(x, y, radius/1.5, arcade.color.ORANGE)
     arcade.draw_circle_filled(x, y, radius/4, arcade.color.LIGHT_BLUE)
     arcade.draw_circle_outline(x, y, radius, arcade.color.BLACK, 2)
-    arcade.draw_circle_outline(x, y, radius/2 + 5, arcade.color.BLACK, 2)
+    arcade.draw_circle_outline(x, y, radius/1.5, arcade.color.BLACK, 2)
     arcade.draw_circle_outline(x, y, radius/4, arcade.color.BLACK, 2)
     #HEAD
     arcade.draw_arc_filled(x, y + radius/1.4, radius - radius/3, radius - radius/3, arcade.color.WHITE, 40, 220, -40)
