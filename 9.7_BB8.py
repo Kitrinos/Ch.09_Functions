@@ -20,16 +20,16 @@ def draw_BB8(x,y, radius): # Function to draw BB8 robots
     b = radius/1
     #body;what is happening with the far top left
     arcade.draw_circle_filled(x, y, radius, arcade.color.WHITE)
-    arcade.draw_circle_filled(x, y, radius/2+5, arcade.color.ORANGE)
+    arcade.draw_circle_filled(x, y, radius/2 + 5, arcade.color.ORANGE)
     arcade.draw_circle_filled(x, y, radius/4, arcade.color.LIGHT_BLUE)
     arcade.draw_circle_outline(x, y, radius, arcade.color.BLACK, 2)
-    arcade.draw_circle_outline(x, y, radius/2+5, arcade.color.BLACK, 2)
+    arcade.draw_circle_outline(x, y, radius/2 + 5, arcade.color.BLACK, 2)
     arcade.draw_circle_outline(x, y, radius/4, arcade.color.BLACK, 2)
     #head circ
     # arcade.draw_circle_outline(x, y+20, radius - radius/2, arcade.color.RED, 3)
     # #head;arc;top let weird
     # arcade.draw_arc_filled(x, y+radius-5, radius-10, radius-10, arcade.color.WHITE, 40, 220, -40)
-    arcade.draw_arc_outline(x, y + radius-5, radius - 10 , radius - 10, arcade.color.BLACK, -5, 180, 3)
+    arcade.draw_arc_outline(x, y + radius, radius - radius/3 , radius - radius/3, arcade.color.BLACK, 0, 180, 3)
 
 #The main function where we set background color, start and finish rendering and run.
 def main():
