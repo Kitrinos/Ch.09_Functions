@@ -35,7 +35,7 @@ The classic test is to use the numbers 1-100 so make sure you test that with you
 '''
 def fizzbuzz(n):
     '''prints fizz for muliples of three, prints buzz for multiples of five, and prints fizzbuzz for multiples of five and three'''
-    for i in range(n):
+    for i in range(1, n):
         if i % 3 == 0 and i % 5 == 0:
             print("fizzbuzz")
             continue
