@@ -31,7 +31,7 @@ Use a for loop with an index variable and a range.
 Inside the loop use an if statement. This function 
 can be written in about four lines of code.
 '''
-
+#
 # li = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 17, 17]
 # def fin(list, num):
 #     '''This takes the list, finds the numbers and prints the position'''
@@ -41,7 +41,11 @@ can be written in about four lines of code.
 #         if num == i:
 #             print("Found", num, "at position", get_position)
 #
-# fin(li, 12)
-# fin(li, 91)
-# fin(li, 80)
+# def main():
+#     fin(li, 12)
+#     fin(li, 91)
+#     fin(li, 80)
+#
+# if __name__ == "__main__":
+#     main()
 

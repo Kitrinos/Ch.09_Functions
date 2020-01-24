@@ -22,5 +22,8 @@ right-justified with commas.
 #         b = c
 #         print(c)
 #
-# Fibonacci(0)
-
+# def main():
+#     Fibonacci(0)
+#
+# if __name__ == "__main__":
+#     main()
