@@ -11,18 +11,19 @@ Just to do a quick review of text formatting in the last chapter, make the list 
 right-justified with commas.
 '''
 
-def Fibonacci(n):
-    '''the first two is the sum of the two preceding ones'''
-    a,b = 0,1
-    print(f"{b:>30,}")
-    for i in range(1, n):
-        c = a + b
-        a = b
-        b = c
-        print(f"{c:>30,}")
+# def Fibonacci(n):
+#     '''the first two is the sum of the two preceding ones'''
+#     a,b = 0,1
+#     print(f"{b:>30,}")
+#     for i in range(1, n):
+#         c = a + b
+#         a = b
+#         b = c
+#         print(f"{c:>30,}")
+#
+# def main():
+#     Fibonacci(100)
+#
+# if __name__ == "__main__":
+#     main()
 
-def main():
-    Fibonacci(100)
-
-if __name__ == "__main__":
-    main()
