@@ -48,6 +48,8 @@ def fizzbuzz(n):
         print(i)
     return fizzbuzz
 
+def main():
+    fizzbuzz(101)
 
-fizzbuzz(101)
-
+if __name__ == "__main__":
+    main()
