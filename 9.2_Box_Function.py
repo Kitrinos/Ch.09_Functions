@@ -37,9 +37,13 @@ oooooooooo
 #     for i in range(h):
 #         print("o" * a)
 #
-# box(7,5)
-# print()
-# box(3,2)
-# print()
-# box(3,10)
+# def main():
+#     box(7,5)
+#     print()
+#     box(3,2)
+#     print()
+#     box(3,10)
+# if __name__ == "__main__":
+#     main()
+
 

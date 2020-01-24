@@ -37,8 +37,12 @@ Please use if statements and practice creating it yourself.
 #     elif num2 < num0:
 #         return num2
 #
-# print(min_val(7, 3, 5))
-# print(min_val(5, 5, 4))
-# print(min_val(2, 2, 3))
-# print(min_val(-2, -6, -100))
-# print(min_val("Z", "B", "A"))
+# def main():
+#     print(min_val(7, 3, 5))
+#     print(min_val(5, 5, 4))
+#     print(min_val(2, 2, 3))
+#     print(min_val(-2, -6, -100))
+#     print(min_val("Z", "B", "A"))
+#
+# if __name__ == "__main__":
+#     main()
