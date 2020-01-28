@@ -31,3 +31,11 @@ import math
 #
 # prim(1,2)
 
+# li = [36, 31, 79, 96, 36, 91, 77, 33, 19, 3, 34, 12, 70, 12, 54, 98, 86, 11, 17, 17]
+# def find(list, key):
+#     for i in range(len(list)):
+#         if key == list[i]:
+#             print(key, "in position", i )
+#
+# find(li,12)
+# find(li, 91)
