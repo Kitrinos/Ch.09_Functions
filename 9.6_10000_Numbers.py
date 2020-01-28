@@ -20,15 +20,15 @@ OUTPUT
 ------
 [2,5,1,6,3] #something like this 
 '''
-# def create_list(ls):
-#     '''prints a list of 5, random numbers 1-6'''
-#     list = []
-#     for i in range(ls):
-#         list.append(random.randrange(7))
-#     return list
-#
-# my_list = create_list(5)
-# print(my_list)
+def create_list(ls):
+    '''prints a list of 5, random numbers 1-6'''
+    list = []
+    for i in range(ls):
+        list.append(random.randrange(7))
+    return list
+
+my_list = create_list(5)
+print(my_list)
 
 '''
 Function #2: Write a function called count_list that takes
@@ -47,19 +47,19 @@ OUTPUT
 ------
 3 
 '''
-# def count_list(my_list, num):
-#     '''taakes the list and prints the mode'''
-#     get_position= -1
-#     num_val = 0
-#     for i in my_list:
-#         get_position+=1
-#         if num == i:
-#             num_val+= 1
-#     return num_val
-#
-# my_list = [1, 2, 3, 3, 3, 4, 2, 1]
-# count = count_list(my_list, 3)
-# print(count)
+def count_list(my_list, num):
+    '''taakes the list and prints the mode'''
+    get_position= -1
+    num_val = 0
+    for i in my_list:
+        get_position+=1
+        if num == i:
+            num_val+= 1
+    return num_val
+
+my_list = [1, 2, 3, 3, 3, 4, 2, 1]
+count = count_list(my_list, 3)
+print(count)
 '''
 Function #3: Write a function called average_list that returns the 
 average of the list passed into it. Once you've finished writing your
@@ -76,27 +76,28 @@ OUTPUT
 ------
 2.0
 '''
-# def average_list(list):
-#     '''prints the average'''
-#     total = 0
-#     for i in list:
-#         total+=i
-#         ave = total/len(list)
-#     return ave
-#
-# my_list = [1,2,3]
-# avg = average_list(my_list)
-# print(avg)
+def average_list(list):
+    '''prints the average'''
+    total = 0
+    for i in list:
+        total+=i
+        ave = total/len(list)
+    return ave
+
+my_list = [1,2,3]
+avg = average_list(my_list)
+print(avg)
 '''
 Now that the functions have been created, use them all in a main program that will:
 1.) Create a list of 10,000 random numbers from 1 to 6. (1 line of code)
 2.) Print the count of 1 through 6. (For example, "There are 1361 amount of 2s") (3 lines of code)
 3.) Print the average of all 10,000 random numbers. (Make sure it's a float) (2 lines of code)
 '''
-#The function are above, only uncomment the functions
+# The function are above, only uncomment the functions
 
-# list = [random.randrange(1,7) for i in range(10000)]
-# count = count_list(list, 2)
-# print("There are ", count, "amount of 2s")
-# avg = average_list(list)
-# print(avg)
+list = [random.randrange(1,7) for i in range(10000)]
+count = count_list(list, 2)
+print("There are ", count, "amount of 2s")
+avg = average_list(list)
+print("This is the average of the list", avg)
+
