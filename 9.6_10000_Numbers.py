@@ -24,7 +24,7 @@ def create_list(ls):
     '''prints a list of 5, random numbers 1-6'''
     list = []
     for i in range(ls):
-        list.append(random.randrange(7))
+        list.append(random.randrange(1,7))
     return list
 
 my_list = create_list(5)
@@ -48,11 +48,9 @@ OUTPUT
 3 
 '''
 def count_list(my_list, num):
-    '''taakes the list and prints the mode'''
-    get_position= -1
+    '''takes the list and prints the mode'''
     num_val = 0
     for i in my_list:
-        get_position+=1
         if num == i:
             num_val+= 1
     return num_val
