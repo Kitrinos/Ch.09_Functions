@@ -81,7 +81,7 @@ def average_list(list):
     total = 0
     for i in list:
         total+=i
-        ave = total/len(list)
+    ave = total/len(list)
     return ave
 
 my_list = [1,2,3]
@@ -107,7 +107,6 @@ def main():
     for i in range(1,7):
         count=count_list(my_list, i)
         print("There are", f"{count:,}", "amount of", i)
-    print()
     print(average_list(my_list))
 
 if __name__ == "__main__":
