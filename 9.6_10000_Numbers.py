@@ -100,7 +100,7 @@ Now that the functions have been created, use them all in a main program that wi
 def main():
     list = [random.randrange(1,7) for i in range(10000)]
     count = count_list(list, 2)
-    print(f"There are ", count, "amount of 2s")
+    print("There are", f"{count:,}", "amount of 2s")
     avg = average_list(list)
     print("This is the average of the list", avg)
 
