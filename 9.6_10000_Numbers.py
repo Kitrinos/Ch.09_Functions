@@ -95,14 +95,20 @@ Now that the functions have been created, use them all in a main program that wi
 '''
 # The function are above, only uncomment the functions
 
-# my_list=create_list(10000)
 
+# def main():
+#     list = [random.randrange(1,7) for i in range(10000)]
+#     count = count_list(list, 2)
+#     print("There are", f"{count:,}", "amount of 2's")
+#     avg = average_list(list)
+#     print("This is the average of the list", avg)
 def main():
-    list = [random.randrange(1,7) for i in range(10000)]
-    count = count_list(list, 2)
-    print("There are", f"{count:,}", "amount of 2s")
-    avg = average_list(list)
-    print("This is the average of the list", avg)
+    my_list=create_list(10000)
+    for i in range(1,7):
+        count=count_list(my_list, i)
+        print("There are", f"{count:,}", "amount of", i)
+    print()
+    print(average_list(my_list))
 
 if __name__ == "__main__":
     main()
