@@ -39,7 +39,9 @@ def main():
     draw_BB8(500, 100, 20)
     draw_BB8(500, 400, 60)
     draw_BB8(120, 500, 15)
+    # draw_BB8(300,300,800)
     arcade.finish_render()
     arcade.run()
 
-main() # Calls the main function
+if __name__ == "__main__":
+    main() # Calls the main function

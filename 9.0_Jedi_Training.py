@@ -51,6 +51,17 @@
 # n = reverse(text)
 # print(n)
 
+# def reverse(text):
+#     '''This will take your text(text) and reverse the text'''
+#     result = ""
+#     text_length = len(text)
+#     for i in range(text_length):
+#         result = result + text[i * - 1 -1 ]
+#     return result
+# text = input("Enter a sentence: ")
+# n = reverse(text)
+# print(n)
+
 '''
 5.) Correct the following code: (if one of the options is not entered it should print the statements
 '''
